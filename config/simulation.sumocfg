@@ -1,0 +1,16 @@
+<configuration>
+    <input>
+        <net-file value="../maps/city.net.xml"/>
+        <route-files value="../routes/vehicles.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <output>
+        <tripinfo-output value="../outputs/tripinfo.xml"/>
+        <summary-output value="../outputs/summary.xml"/>
+    </output>
+</configuration>
